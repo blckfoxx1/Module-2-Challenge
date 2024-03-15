@@ -1,0 +1,57 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    display: inline;
+    align-content: space-between;
+}
+
+.cover-image{
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    position: relative;
+    z-index: 0;
+}
+
+.title{
+    font-weight: lighter;
+    font-size: 4em;
+    padding-top: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.portfolio{
+    display: inline-block;
+    width: 100%; 
+    position: relative;
+  }
+.card1{
+    position: relative;
+    float: left;
+    width: 28%;
+    margin-right: 2%;
+    background-color: white;
+    padding: 5px;
+  }
+.card2{
+    background-color: white;
+    padding: 5px;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
